@@ -28,13 +28,13 @@ An automated enumeration script I created to prepare for the OSCP exam
 
 ```bash
 # Run all tools
-./recon.sh -t 192.168.45.200
+./recon.sh -t 127.0.0.1
 
 # Run nmap and feroxbuster only
-./recon.sh -t 192.168.45.200 -n -f
+./recon.sh -t 127.0.0.1 -n -f
 
 # Specify web port
-./recon.sh -t 192.168.45.200 -p 8080
+./recon.sh -t 127.0.0.1 -p 8080
 ```
 
 
